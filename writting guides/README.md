@@ -24,7 +24,7 @@ We have created these guides with the sole intention of allowing content authors
 
 Welcome to our **Writing Guide**. We will be using this guide as an opportunity to help enhance the present Markdown experience with some augmented rules and features to help derive a better user experience on top of the universally accepted `Markdown` flavor of document writing.
 
-The main purpose of this document is to act as a living guide. One that can be augmented and reformed over time to suit the ever-growing needs of its users. It seeks to provide rules and procedures that we all can utilize in the same coherent manner.
+The main purpose of these documents is to act as a living guide. One that can be augmented and reformed over time to suit the ever-growing needs of its users. It seeks to provide rules and procedures that we all can utilize in the same coherent manner.
 
 Being coherent and concise with our Markdown syntax and semantic expression would allow other post-creation workflows to better understand the content. Allowing for them to provide components and richer UI experiences to help convey the content better to the end-user.
 
@@ -61,10 +61,10 @@ We recommend that you begin by taking a look over our **Writing Guide** section 
 
 ## Guides
 - How to's
-    - [Directives](./guides/directives)
-    - [GitHub Flavored Markdown](./guides/gfm)
-    - [Tables](./guides/tables)
-    - [Task List](./guides/task-list)
+    - [Directives](./how-to/directives.md)
+    - [GitHub Flavored Markdown](./how-to/gfm.md)
+    - [Tables](./how-to/tables.md)
+    - [Task List](./how-to/task-list.md)
 
 ***
 
@@ -78,8 +78,8 @@ We welcome any PRs to the repository, where we can take full use of the collabor
 
 We have two distinct types of stakeholders that are in need of having strong guidance on how we create our content.
 
-These are first and foremost the content creators themselves. We serve their needs in order for them to be creative and help deliver the best-in-class content possible.
+These are first and foremost the content creators themselves. We first and foremost serve their needs in order for them to be creative and help deliver the best-in-class content possible.
 
 The second is those involved in the presentation of the content. This secondary group of stakeholders is responsible for taking the content and being able to express it in the best way possible to their audiences.
 
-Taking into consideration the needs of both groups of stakeholders is paramount to the success of these documents, which would be best measured in their fidelity and adoption of the guidance set forth in these documents in subsequent courses that would be created hereafter.
+Taking into consideration the needs of both groups of stakeholders is paramount to that these documents and their value is imparted and succeeds. This lofty ambition would be best measured in their fidelity and adoption of the guidance set forth in these documents in subsequent courses that would be created hereafter.
