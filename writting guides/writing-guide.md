@@ -1,12 +1,13 @@
 ---
+layout: content
 title: Writing Guide
 author: Fuzzy
 description: Writing guide providing a concise set of guidelines on how to best utilize Markdown for the purposes of creating rich narrative through Markdown.
 draft: true
 
 section: guides
-    sub: writing
-    unit: Introduction
+  sub: writing
+  unit: Introduction
 ---
 # Abstract
 
@@ -40,22 +41,22 @@ We recommend that you begin by taking a look over our **Writing Guide** section 
 # Table of Contents
 
 ## Writing Guide
-- [Introduction](./writing-guide)
-- [Syntax](./syntax)
-- [Semantic](./semantics)
-    - [Headings and titles](./semantics/#1-use-clear-specific-and-meaningful-titles-and-subheadings)
-    - [List](./semantics/#2-use-lists-for-hierarchical-information-or-steps)
-    - [Links](./semantics/#5-use-links-to-reference-external-resources)
-    - [Using Code Blocks](./semantics/#4-use-code-blocks-for-codes-or-commands)
-    - [When to be Bold and when to emphasis](./semantics/#3-use-bold-or-italics-for-emphasis)
+- [Introduction](./writing-guide.md)
+- [Syntax](./syntax.md)
+- [Semantic](./semantics.md)
+    - [Headings and titles](./semantics.md/#1-use-clear-specific-and-meaningful-titles-and-subheadings)
+    - [List](./semantics.md/#2-use-lists-for-hierarchical-information-or-steps)
+    - [Links](./semantics.md/#5-use-links-to-reference-external-resources)
+    - [Using Code Blocks](./semantics.md/#4-use-code-blocks-for-codes-or-commands)
+    - [When to be Bold and when to emphasis](./semantics.md/#3-use-bold-or-italics-for-emphasis)
     - More to be added in due course
 
+- [Course Structure]()
 - [Document Structure]()
     - [Frontmatter]()
     - [Breaking it up]()
     - [Defining Layouts]()
 
-- [Course Structure]()
 
 
 ## Guides
