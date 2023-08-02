@@ -155,6 +155,33 @@ keywords: "keyword1, keyword2"
 ```
 
 ### Defining Layouts
+
+We can use frontmatter to help define additional metadata about the document. With this we can at build-time (that is when we process the markdown onto our frontend), use this metadata to add further *'directives'* to the User Interface (UI).
+
+For instance when we are creating our content we have several different formats that we would be creating. "Overview" or "README" pages would be parsed and displayed differently to a "Unit" and likewise there would be implementation differences between a "Tutorial" and an "Exercise".
+
+However, from the content authoring experience we do not wish for this to distract the content creators from their creation's process. If anything they only stipulate which type of document they are working on. With this knowledge imparted, matching the layouts to the correct document type would be done automatically during build-time.
+
+```diff
+---
+title: "Title of the Document"
++ doctype: "overview" | "unit" | "tutorial" | "exercise"
+author: "Author's Name"
+date: "YYYY-MM-DD"
+chapter: 1
+section: 2
+unit: 3
+keywords: "keyword1, keyword2"
+
+---
+
+```
+For reference here are the accepted `types` for `doctype`:
+
+```ts
+// Doctype for reference
+type doctype = "overview" | "unit" | "tutorial" | "exercise"
+```
 ***
 
 By structuring each document in this way, you'll ensure that the content being created is well-organized and easy to follow.
