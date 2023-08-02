@@ -51,11 +51,11 @@ We recommend that you begin by taking a look over our **Writing Guide** section 
     - [When to be Bold and when to emphasis](./semantics.md/#3-use-bold-or-italics-for-emphasis)
     - More to be added in due course
 
-- [Course Structure]()
-- [Document Structure]()
-    - [Frontmatter]()
-    - [Breaking it up]()
-    - [Defining Layouts]()
+- [Course Structure](./course-structure.md)
+- [Document Structure](./document-structure.md)
+    - [Frontmatter](./document-structure.md/#frontmatter--metadata)
+    - [Structuring a Single Document](./document-structure.md/#structuring-a-single-document)
+    - [Defining Layouts](./document-structure.md/#defining-layouts)
 
 
 
