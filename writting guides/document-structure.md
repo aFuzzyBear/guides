@@ -89,6 +89,44 @@ Links to external resources can be included using Markdown's syntax. This is esp
 For more information, see [this link](url-to-link).
 ```
 
+### Thematic Breaks
+
+Thematic breaks (`***`) are used to create a horizontal line in your document, providing a clear visual separation between different sections or ideas. They can be particularly useful to break up long documents or to mark transitions between different topics or themes.
+
+When you want to add a thematic break to your document, you should insert a line with three asterisks on a new line, like this:
+
+```md
+***
+```
+
+Here are some guidelines for using thematic breaks:
+
+**Consistency:** 
+To keep your documents looking uniform, try to use thematic breaks consistently. For example, you might choose to always place a thematic break before a new section begins.
+
+**Whitespace:** 
+Make sure to put an empty line before and after your thematic break. This will ensure that it stands out and is not mistaken for an underline.
+
+**Don't overuse**: 
+While thematic breaks can be very helpful, they should not be overused. Too many breaks can make a document look disjointed and can disrupt the flow of the text. A good rule of thumb is to use them sparingly and only where there is a clear change in topic or theme.
+
+#### Example
+Here is an example of how a thematic break can be used:
+
+```md
+## Section 1
+
+This is some text about a particular topic. 
+
+***
+
+## Section 2
+
+This is some text about a different topic.
+In this example, the thematic break between the sections helps to clearly delineate where one topic ends and the next begins.
+```
+
+
 ### Conclusion or Summary
 
 End the document with a conclusion or summary that recaps the main points. This helps to reinforce what the reader has learned.
@@ -115,5 +153,8 @@ keywords: "keyword1, keyword2"
 
 ---
 ```
+
+### Defining Layouts
+***
 
 By structuring each document in this way, you'll ensure that the content being created is well-organized and easy to follow.
